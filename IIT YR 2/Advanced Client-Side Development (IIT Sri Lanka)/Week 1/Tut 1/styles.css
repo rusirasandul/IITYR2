@@ -1,0 +1,142 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+  }
+  
+  body {
+      background-color: #fff4e4;
+      color: #333;
+  }
+  
+  header {
+      background-color: #ffe6e1;
+      padding: 20px;
+  }
+  
+  .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  h1 {
+      font-size: 36px;
+      color: black;
+  }
+  
+  nav ul {
+      list-style: none;
+      display: flex;
+  }
+  
+  nav ul li {
+      margin-left: 20px;
+  }
+  
+  nav ul li a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+  }
+  
+  main {
+      padding: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+  }
+  
+  .intro {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #ffeff7;
+      padding: 40px;
+      border-radius: 8px;
+  }
+  
+  .intro img {
+      width: 200px;
+      border-radius: 50%;
+  }
+  
+  .intro-text {
+      max-width: 600px;
+  }
+  
+  .intro-text h2 {
+      color: #333;
+      font-size: 32px;
+      margin-bottom: 20px;
+  }
+  
+  .intro-text p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #666;
+  }
+  
+  .intro-text a {
+      color: black;
+      text-decoration: none;
+  }
+  
+  .blog {
+      margin-top: 40px;
+  }
+  
+  .blog h3 {
+      font-size: 28px;
+      color: #333;
+      margin-bottom: 20px;
+  }
+  
+  .blog ul {
+      list-style: none;
+  }
+  
+  .blog ul li {
+      font-size: 18px;
+      margin-bottom: 10px;
+  }
+  
+  .blog ul li span {
+      font-size: 14px;
+      color: #999;
+      margin-left: 10px;
+  }
+  
+  .more-blog {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: black;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+  }
+  
+  footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      margin-top: 40px;
+  }
+  
+  footer .social-links {
+      margin-bottom: 10px;
+  }
+  
+  footer .social-links a {
+      color: black;
+      margin: 0 10px;
+      text-decoration: none;
+  }
+  
+  footer .footer-text p {
+      margin-top: 10px;
+      font-size: 14px;
+  }
+  
